@@ -4,6 +4,8 @@ plan:
   statement: markdowns/welcome.md
 - title: Colored By Iterations
   statement: markdowns/iterations.md
+- title: Cubic with Sine Term
+  statement: markdowns/cubicwithsineterm.md
 projects:
   python:
     root: /python-project
