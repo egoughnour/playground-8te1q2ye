@@ -8,7 +8,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 
 @[Is 7 in the basin of attraction of any roots of the function f(z)+ u(|f(z)|-k-1)sin(z)]({"stubs": ["sinebrot/plot.py", "sinebrot/basin.py"], "command": "sh -c 'python3 sinebrot/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
-Note that $`u`$ here is the Heaviside step function but it's applied to the (shifted) modulus of a function rather than a variable.  That is, we are interested in roots of $`g\equivf(z)+u(|f(z)|-k-1)sin(z)`$.
+Note that $`u`$ here is the Heaviside step function but it's applied to the (shifted) modulus of a function rather than a variable.  That is, we are interested in roots of $`g$$\equiv$$f(z)+u(|f(z)|-k-1)sin(z)`$.
 
 # Template Resources
 
