@@ -35,8 +35,8 @@ def sinebrot(c):
         f = (z*z*z)-z
         p = 3*z*z-1
         if abs(f) > SINE_SCALE + 1:
-          f = f + SINE_SCALE * sin(z)
-          p = p + SINE_SCALE * cos(z)
+          f = f + complex(SINE_SCALE,0) * sin(z)
+          p = p + complex(SINE_SCALE,0) * cos(z)
         if abs(p) <= EPSILON:
             return MAX_ITER
         prev = z
