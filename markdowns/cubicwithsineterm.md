@@ -1,14 +1,9 @@
 # Here is a slightly more interesting output
-This Python template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
-
-
-The source code is on [GitHub](https://github.com/TechDotIO/python-template), please feel free to come up with proposals to improve it.
-
-# Hands-on Demo
+Note that $`u`$ here is the Heaviside step function but it's applied to the (shifted) modulus of a function rather than a variable.  That is, we are interested in roots of $`g(z) \equiv f(z)+u(|f(z)|-k-1)sin(z)`$.
 
 @[Is 7 in the basin of attraction of any roots of the function f(z)+ u(|f(z)|-k-1)sin(z)]({"stubs": ["sinebrot/plot.py", "sinebrot/basin.py"], "command": "sh -c 'python3 sinebrot/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
-Note that $`u`$ here is the Heaviside step function but it's applied to the (shifted) modulus of a function rather than a variable.  That is, we are interested in roots of $`g$$\equiv$$f(z)+u(|f(z)|-k-1)sin(z)`$.
+
 
 # Template Resources
 
