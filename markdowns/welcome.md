@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 
 # Hands-on Demo
 
-@[Is 7 in the basin of attraction of any roots of the cubic z(z-1)(z+1)]({"stubs": ["basin.py"], "command": "python3 test_basin.py"})
+@[Is 7 in the basin of attraction of any roots of the cubic z(z-1)(z+1)]({"stubs": ["plot.py", "basin.py"], "command": "sh -c 'python3 plot.py && echo "TECHIO> open -s /project/target/ index.html"'"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/python-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
