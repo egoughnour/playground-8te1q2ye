@@ -4,13 +4,14 @@ MAX_ITER = 80
 
 EPSILON = 0.001
 SINE_SCALE = 4.0
+ESCAPE_RADIUS = 8.0
    
 def cubicbrot(c):
     z = c
     n = 0
     prev = EPSILON
       
-    while (abs(z) <= 2 or abs(z-1) <= 2 or abs(z+1) <= 2) and n < MAX_ITER:
+    while (abs(z) <= ESCAPE_RADIUS or abs(z-1) <= ESCAPE_RADIUS or abs(z+1) <= ESCAPE_RADIUS) and n < MAX_ITER:
         f = (z*z*z)-z
         p = 3*z*z-1
         if abs(p) <= EPSILON:
@@ -31,7 +32,7 @@ def sinebrot(c):
     n = 0
     prev = EPSILON
       
-    while (abs(z) <= 2 or abs(z-1) <= 2 or abs(z+1) <= 2) and n < MAX_ITER:
+    while (abs(z) <= ESCAPE_RADIUS or abs(z-1) <= ESCAPE_RADIUS or abs(z+1) <= ESCAPE_RADIUS) and n < MAX_ITER:
         f = (z*z*z)-z
         p = 3*z*z-1
         if abs(f) > SINE_SCALE + 1:
