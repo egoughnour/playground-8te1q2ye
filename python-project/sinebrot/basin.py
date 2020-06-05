@@ -26,7 +26,7 @@ def cubicbrot(c):
         n += 1
     return n
     
-    def sinebrot(c):
+def sinebrot(c):
     z = c
     n = 0
     prev = EPSILON
