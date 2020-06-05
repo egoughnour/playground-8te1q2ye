@@ -1,5 +1,5 @@
-from math import exp, sin, cos
-
+from math import exp
+from cmath import sin, cos
 MAX_ITER = 80
 
 EPSILON = 0.001
@@ -35,8 +35,8 @@ def sinebrot(c):
         f = (z*z*z)-z
         p = 3*z*z-1
         if abs(f) > SINE_SCALE + 1:
-          f = f + complex(SINE_SCALE,0) * sin(z)
-          p = p + complex(SINE_SCALE,0) * cos(z)
+          f = f + SINE_SCALE * sin(z)
+          p = p + SINE_SCALE * cos(z)
         if abs(p) <= EPSILON:
             return MAX_ITER
         prev = z
