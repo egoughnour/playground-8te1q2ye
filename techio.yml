@@ -6,6 +6,4 @@ projects:
   python:
     root: /python-project
     buildCommand: pip3 install Pillow
-    runner:
-      name: python
-      version: '3'
+    runner: python:3
