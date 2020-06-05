@@ -32,8 +32,11 @@ def cubicbrot(c):
     prev = EPSILON
       
     while (abs(z) <= 2 or abs(z-1) <= 2 or abs(z+1) <= 2) and n < MAX_ITER:
-        f = (z*z*z)-z + SINE_SCALE * sin(z)
-        p = 3*z*z-1 + SINE_SCALE * cos(z)
+        f = (z*z*z)-z
+        p = 3*z*z-1
+        if abs(f) > SINE_SCALE + 1:
+          f = f + SINE_SCALE * sin(z)
+          p = p + SINE_SCALE * cos(z)
         if abs(p) <= EPSILON:
             return MAX_ITER
         prev = z
