@@ -1,5 +1,4 @@
-# Welcome!
-
+# This will have smoothing and histogram coloring if possible
 This Python template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
 
 
@@ -7,7 +6,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 
 # Hands-on Demo
 
-@[Is 7 in the basin of attraction of any roots of the cubic z(z-1)(z+1)]({"stubs": ["plot.py", "basin.py"], "command": "sh -c 'python3 plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
+@[Is 7 in the basin of attraction of any roots of the cubic z(z-1)(z+1)]({"stubs": ["withcolor/plot.py", "withcolor/basin.py"], "command": "sh -c 'python3 withcolor/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/python-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
