@@ -1,7 +1,9 @@
 title: Newton Basin Project
 plan:
-- title: Welcome
+- title: Newton Basin (Faint)
   statement: markdowns/welcome.md
+- title: Colored By Iterations
+  statement: markdowns/iterations.md
 projects:
   python:
     root: /python-project
