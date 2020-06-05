@@ -1,4 +1,4 @@
-# This will have smoothing and histogram coloring if possible
+# Here is a slightly more interesting output
 This Python template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
 
 
@@ -6,9 +6,9 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 
 # Hands-on Demo
 
-@[Is 7 in the basin of attraction of any roots of the function z(z-1)(z+1)+sin(z)]({"stubs": ["sinebrot/plot.py", "sinebrot/basin.py"], "command": "sh -c 'python3 sinebrot/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
+@[Is 7 in the basin of attraction of any roots of the function f(z)+ u(|f(z)|-k-1)sin(z)]({"stubs": ["sinebrot/plot.py", "sinebrot/basin.py"], "command": "sh -c 'python3 sinebrot/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
-Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/python-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
+Note that $`u`$ here is the Heaviside step function but it's applied to the modulus of the (shifted) modulus of a function rather than a variable.
 
 # Template Resources
 
